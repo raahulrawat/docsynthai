@@ -26,7 +26,6 @@ It acts as a universal IDP engine that any LLM-powered or traditional applicatio
 
 ⚙️ Custom processors and plugins
 
-🧶 Knowledge-graph–aligned output (optional)
 
 ✨ Key Features
 🔹 1. Unstructured Document Classification
@@ -79,33 +78,6 @@ Ask for structured results
 
 Retrieve logs & metadata
 
-Perfect for integrating with:
-
-ChatGPT Clients
-
-Agentic platforms
-
-Workflow orchestrators
-
-Backend microservices
-
-Data pipelines
-
-🧱 Architecture Overview
-          ┌───────────────────┐
-          │   MCP Client      │
-          └─────────┬─────────┘
-                    │ Requests
-          ┌─────────▼──────────┐
-          │   DocSynthAI MCP   │
-          │       Server       │
-          └─────────┬──────────┘
-      ┌──────────────┼────────────────┐
-      │              │                │
-┌─────▼─────┐ ┌─────▼─────┐ ┌────────▼────────┐
-│ Classifier│ │ Extractor  │ │ Validation Core │
-└───────────┘ └────────────┘ └─────────────────┘
-
 🧪 Supported Document Types
 
 Invoices
@@ -123,6 +95,7 @@ Government IDs
 Contracts
 
 Custom templates
+
 
 📦 Installation (Coming Soon)
 
