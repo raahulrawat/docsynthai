@@ -1,4 +1,4 @@
-<img src="assets/logo.png" width="80" />
+<img src="assets/logo.png" width="500" />
 DocSynthAI – Intelligent Document Processing MCP Server
 
 🌟 About DocSynthAI
