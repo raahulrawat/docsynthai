@@ -1,23 +1,16 @@
-<img src="assets/logo.png" width="500" />
+<img src="assets/logo.png" width="320" />
 DocSynthAI – Intelligent Document Processing MCP Server
 
-🌟 About DocSynthAI
-
 DocSynthAI is an open-source Intelligent Document Processing (IDP) engine powered by the Model Context Protocol (MCP).
-It is built to make unstructured documents understandable, extractable, validatable, and machine-ready — using AI, NLP, OCR, and rule-based business logic.
+It converts unstructured documents into structured, validated, business-ready data using OCR, NLP, AI models, and rule-based validation pipelines.
 
 ✨ What DocSynthAI Does
-🔹 Transforms unstructured documents into structured intelligence
 
-DocSynthAI reads any document (PDF, Image, Scanned copy, Docx) and converts it into clean, normalized, business-friendly data.
+Transforms PDFs, images, scanned docs, and text files into structured data
 
-🔹 Acts as an MCP Server
+Exposes an MCP server, enabling any LLM/agent/workflow to process documents
 
-So any LLM, ChatGPT client, agentic system, or automation pipeline can connect and process documents seamlessly.
-
-🔹 Provides a modular, pluggable IDP Pipeline
-
-Each stage is designed as a pluggable unit:
+Runs a modular IDP pipeline with plug-and-play stages:
 
 OCR
 
@@ -25,140 +18,71 @@ Layout detection
 
 Classification
 
-Entity extraction
+Entity & table extraction
 
 Field normalization
 
 Canonical business validation
 
-Output formatting & enrichment
-
 🚀 Core Highlights
-⭐ 1. AI-powered Document Classification
+⭐ 1. AI-Driven Classification
 
-Identifies document type: invoices, statements, contracts, forms, etc.
-
-Multi-lingual, multi-modal support
-
-Hybrid rules + ML models for high accuracy
+Detects document types (invoices, KYC, statements, contracts, etc.) with ML + rules.
 
 ⭐ 2. Smart Extraction Engine
 
-OCR + NLP combined extraction
+OCR + NLP extraction with key-value detection, table parsing, and entity recognition.
 
-Table detection & parsing
+⭐ 3. Canonical Validation Layer
 
-Key-value pair extraction
+Applies domain rules, cross-field checks, regulatory patterns, and normalization to produce a consistent schema.
 
-Entity recognition
+⭐ 4. MCP-Native Integration
 
-Semantic chunking
+Instantly usable with LLMs, agent frameworks, workflow tools, and automation platforms.
 
-Multi-page & multi-format support
+⭐ 5. Fully Extensible
 
-⭐ 3. Canonical Business Validation
-
-Validates extracted data against:
-
-Domain rules
-
-Business logic
-
-Cross-field consistency
-
-Regulatory patterns
-
-Date / number normalization
-
-Generates a uniform “canonical schema”
-
-⭐ 4. Plug-and-Play with MCP
-
-Exposes all capabilities through MCP
-
-Enables integration with:
-
-LLMs
-
-ChatGPT clients
-
-Agent frameworks
-
-Workflow engines
-
-Automation pipelines
-
-⭐ 5. Extensible by Design
-
-Add custom validators
-
-Add new extractors
-
-Add new classification schemas
-
-Override pipeline components
-
-Inject your own ML models
+Custom extractors, validators, models, and pipelines can be added with minimal effort.
 
 📁 Supported Document Types
 
 Invoices
 
-KYC documents
+KYC & identity documents
 
 Bank statements
-
-Insurance forms
-
-Government IDs
 
 Utility bills
 
 Contracts & agreements
 
-Custom enterprise formats
+Insurance forms
+
+Custom enterprise templates
 
 🔧 Why DocSynthAI?
-✔ Built for developers
 
-Straightforward APIs, clean pipeline, and MCP integration.
+✔ Developer-friendly API & clean architecture
 
-✔ Built for enterprises
+✔ Enterprise-grade validations & schema consistency
 
-Stable architecture, validation layers, and audit-friendly output.
+✔ Ideal for agentic and LLM-driven automation
 
-✔ Built for agents
-
-MCP interface makes LLM-based automation extremely easy.
-
-✔ Built for open-source community
-
-Modular, extendable, customizable.
+✔ Open-source, modular, and highly customizable
 
 🧠 Vision
 
-To make unstructured documents first-class, machine-understandable objects, enabling:
+Enable a world where documents become machine-understandable—powering automation, intelligent agents, RPA, and enterprise knowledge systems.
 
-Automated workflows
+🎉 Who Should Use It
 
-Intelligent agents
+IDP & automation developers
 
-RPA & back-office optimization
+Agentic AI platform builders
 
-Compliance-ready data extraction
+Data/AI engineering teams
 
-Enterprise-wide knowledge systems
+Enterprises with high document volume
 
-🎉 Who Should Use DocSynthAI?
-
-Developers building IDP products
-
-Agentic AI platform creators
-
-Automation engineers
-
-Data engineers & AI teams
-
-Enterprises processing high-volume paperwork
-
-Anyone wanting an open-source IDP MCP server
+Open-source innovators
