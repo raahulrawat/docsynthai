@@ -1,5 +1,6 @@
-<img src="assets/logo.png" width="320" />
-DocSynthAI – Intelligent Document Processing MCP Server
+<p align="center">
+  <img src="assets/logo.png" width="180" />
+</p>
 
 <h1 align="center">DocSynthAI – Intelligent Document Processing MCP Server</h1>
 
