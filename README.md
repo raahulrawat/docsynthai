@@ -1,90 +1,110 @@
 <img src="assets/logo.png" width="80" />
 DocSynthAI – Intelligent Document Processing MCP Server
 
-DocSynthAI is an open-source Model Context Protocol (MCP) server designed to bring intelligence to unstructured documents.
-It provides core IDP capabilities like document classification, extraction, validation, and canonical business rule enforcement — all accessible through a plug-and-play MCP interface.
+🌟 About DocSynthAI
 
-🚀 What is DocSynthAI?
+DocSynthAI is an open-source Intelligent Document Processing (IDP) engine powered by the Model Context Protocol (MCP).
+It is built to make unstructured documents understandable, extractable, validatable, and machine-ready — using AI, NLP, OCR, and rule-based business logic.
 
-DocSynthAI transforms unstructured documents into structured, validated, enriched data.
+✨ What DocSynthAI Does
+🔹 Transforms unstructured documents into structured intelligence
 
-It acts as a universal IDP engine that any LLM-powered or traditional application can plug into via MCP. Whether you’re dealing with invoices, forms, contracts, KYC docs, or free-flow text, DocSynthAI provides:
+DocSynthAI reads any document (PDF, Image, Scanned copy, Docx) and converts it into clean, normalized, business-friendly data.
 
-🧩 Classification
+🔹 Acts as an MCP Server
 
-📄 Structured field extraction
+So any LLM, ChatGPT client, agentic system, or automation pipeline can connect and process documents seamlessly.
 
-🔍 OCR + NLP hybrid extraction
+🔹 Provides a modular, pluggable IDP Pipeline
 
-🧠 AI-based entity understanding
+Each stage is designed as a pluggable unit:
 
-📏 Canonical business validations
+OCR
 
-🔒 Rule-based and ML-based QA checks
+Layout detection
 
-🔗 Multi-step pipelines
+Classification
 
-⚙️ Custom processors and plugins
+Entity extraction
 
+Field normalization
 
-✨ Key Features
-🔹 1. Unstructured Document Classification
+Canonical business validation
 
-Identify document type (invoice, bank statement, contract, form, etc.)
+Output formatting & enrichment
 
-AI + rule hybrid for high confidence
+🚀 Core Highlights
+⭐ 1. AI-powered Document Classification
 
-Multi-format support (PDF, JPG, PNG, TIFF, DOCX)
+Identifies document type: invoices, statements, contracts, forms, etc.
 
-🔹 2. Extraction Pipeline
+Multi-lingual, multi-modal support
 
-OCR with layout understanding
+Hybrid rules + ML models for high accuracy
 
-Table extraction
+⭐ 2. Smart Extraction Engine
 
-Key-value extraction
+OCR + NLP combined extraction
 
-Multi-lingual text understanding
+Table detection & parsing
 
-Intelligent page splitting
+Key-value pair extraction
 
-Multi-model & multimodal extraction
+Entity recognition
 
-🔹 3. Validation Engine
+Semantic chunking
 
-Includes:
+Multi-page & multi-format support
 
-Structural validation
+⭐ 3. Canonical Business Validation
 
-Mandatory field checks
+Validates extracted data against:
 
-Format + regex validations
+Domain rules
 
-Cross-field business rules
+Business logic
 
-Canonicalization (convert names, dates, numbers to unified formats)
+Cross-field consistency
 
-🔹 4. MCP Interface
+Regulatory patterns
 
-DocSynthAI exposes itself as an MCP Server so any client (LLMs, agentic systems, automation tools) can:
+Date / number normalization
 
-Submit documents
+Generates a uniform “canonical schema”
 
-Request extraction
+⭐ 4. Plug-and-Play with MCP
 
-Validate output
+Exposes all capabilities through MCP
 
-Ask for structured results
+Enables integration with:
 
-Retrieve logs & metadata
+LLMs
 
-🧪 Supported Document Types
+ChatGPT clients
+
+Agent frameworks
+
+Workflow engines
+
+Automation pipelines
+
+⭐ 5. Extensible by Design
+
+Add custom validators
+
+Add new extractors
+
+Add new classification schemas
+
+Override pipeline components
+
+Inject your own ML models
+
+📁 Supported Document Types
 
 Invoices
 
 KYC documents
-
-Utility bills
 
 Bank statements
 
@@ -92,54 +112,53 @@ Insurance forms
 
 Government IDs
 
-Contracts
+Utility bills
 
-Custom templates
+Contracts & agreements
 
+Custom enterprise formats
 
-📦 Installation (Coming Soon)
+🔧 Why DocSynthAI?
+✔ Built for developers
 
-Once published to PyPI:
+Straightforward APIs, clean pipeline, and MCP integration.
 
-pip install docsynthai
+✔ Built for enterprises
 
+Stable architecture, validation layers, and audit-friendly output.
 
-For local development:
+✔ Built for agents
 
-git clone https://github.com/<your-org>/docsynthai.git
-cd docsynthai
-pip install -r requirements.txt
+MCP interface makes LLM-based automation extremely easy.
 
+✔ Built for open-source community
 
-Start MCP server:
+Modular, extendable, customizable.
 
-python -m docsynthai.server
+🧠 Vision
 
-🛠️ Usage as MCP Server
+To make unstructured documents first-class, machine-understandable objects, enabling:
 
-Your MCP client configuration:
+Automated workflows
 
-{
-  "servers": {
-    "docsynthai": {
-      "command": "python",
-      "args": ["-m", "docsynthai.server"]
-    }
-  }
-}
+Intelligent agents
 
-🎯 Roadmap
+RPA & back-office optimization
 
- Advanced table structure reconstruction
+Compliance-ready data extraction
 
- Graph embedding + KG export
+Enterprise-wide knowledge systems
 
- LLM-assisted correction pipelines
+🎉 Who Should Use DocSynthAI?
 
- Plugin system for custom validators
+Developers building IDP products
 
- IDP pipeline visualizer
+Agentic AI platform creators
 
- Cloud deployment module
+Automation engineers
 
- Metrics dashboard
+Data engineers & AI teams
+
+Enterprises processing high-volume paperwork
+
+Anyone wanting an open-source IDP MCP server
